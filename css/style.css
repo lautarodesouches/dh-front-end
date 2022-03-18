@@ -1,7 +1,24 @@
-.text-center{
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #E6E6E6;
     text-align: center;
 }
 
 h1{
-    font-size: 2em;
+    text-align: center;
+}
+
+h1, h3{
+    background-color: #C4C4C4;
+    color: #005677;
+}
+
+footer{
+    text-align: center;
+    background-color: #005677;
+    color: #fff;
 }
