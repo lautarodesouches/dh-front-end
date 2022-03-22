@@ -1,0 +1,111 @@
+/* Font Awesome 6.1.0 */
+@import url("https://use.fontawesome.com/releases/v6.1.0/css/all.css");
+
+/* Google Fonts - Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Global */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Coustom */
+
+#menu-superior{
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+#menu-principal{
+    background-color: #F0A83E;
+    color: white;
+}
+
+#menu-principal nav{
+    font-size: 13px;
+}
+
+.logo span{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.text-black{
+    color: black;
+}
+
+#banner{
+    background-image: url('../img/background-banner.png');
+    height: 450px;
+    text-align: center;
+}
+
+#banner h1{
+    background-color: white;
+    color: black;
+    font-size: 30px;
+}
+
+#banner h2, h3{
+    font-size: 16px;
+}
+
+#banner h3{
+    background-color: #F0A83E;
+    color: white;
+}
+
+#productos{
+    font-size: 15px;
+}
+
+#productos h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#productos h5{
+    color: #666666;
+}
+
+#productos article{
+    background-color: #FBFAF6;
+}
+
+#productos article h4, h5{
+    font-weight: 500;
+}
+
+#productos article h5{
+    color: #F0A83E;
+}
+
+#contacto{
+    background-color: #3C2313;
+    color: white;
+    font-weight: 400;
+}
+
+#contacto h4{
+    font-size: 20px;
+}
+
+#contacto h5{
+    font-size: 10px
+}
+
+.text-orange{
+    color: #F0A83E;
+}
+
+footer{
+    text-align: center;
+    background-color: #F0A83E;
+    color: white;
+}
