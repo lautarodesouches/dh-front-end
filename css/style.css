@@ -70,8 +70,10 @@ article{
 }
 
 .main-image .personaje{
-    bottom: -10%;
-    left: 38%;
+    bottom: -15%;
+    left: 0;
+    right: 0;
+    margin: auto;
     z-index: 98;
     position: absolute;
     border-radius: 50%;
