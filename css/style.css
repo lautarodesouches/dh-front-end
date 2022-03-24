@@ -1,0 +1,136 @@
+/* Importar Google Fonts - Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header{
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.text-green{
+    color: #39B24A;
+}
+
+.text-red{
+    color: #FC200C;
+}
+
+.text-white{
+    color: #F3F3F3;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo h1{
+    padding-left: 1rem;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+header  nav ul{
+    display: flex;
+}
+
+nav ul li{
+    padding: 0.75rem;
+    font-size: 16px;
+}
+
+main section{
+    background-color: #E5E5E5;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#promocion, #podio{
+    border-radius: 5px;
+    width: 49%;
+    padding: 2rem;
+    font-weight: 700;
+}
+
+#promocion{
+    background-image: url(../img/delivery.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+#promocion h2{
+    font-size: 24px;
+}
+
+#podio{
+    background-color: #FFFFFF;
+}
+
+#podio h2{
+    text-align: center;
+    color: #FC200C;
+    font-size: 24px;
+}
+
+#podio h5{
+    padding-left: 0.25rem;
+    font-size: 20px;
+}
+
+.flex{
+    display: flex;
+}
+
+#podio .flex{
+    margin-top: 75px;
+    padding: 2rem;
+    justify-content: space-between
+}
+
+#podio .flex ol{
+    margin-top: 1rem;
+}
+
+#podio .flex li{
+    margin: 0.5rem 0;
+}
+
+#podio .flex div{
+    flex-grow: 1;
+}
+
+#podio .flex .img{
+    text-align: center;
+}
+
+#podio .flex img{
+    width: 50%;
+}
+
+footer{
+    background-color: #222222;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div nav ul{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .logo h1{
+    font-size: 20px;
+}
