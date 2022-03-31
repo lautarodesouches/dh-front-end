@@ -1,0 +1,432 @@
+/* Font Awesome 6.1.0 */
+@import url("https://use.fontawesome.com/releases/v6.1.0/css/all.css");
+
+/* Importar Google Fonts - Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* General Start */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+header, main, footer{
+    width: 100%;
+}
+
+.logo{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+/* General End */
+
+/* Col Start */
+
+.col-6{
+    flex-grow: 6;
+}
+
+/* Col End */
+
+/* Text color Start */
+
+.text-dark{
+    color: #000;
+}
+
+.text-white{
+    color: #fff;
+}
+
+.text-orange{
+    color: #F0A83E;
+}
+
+/* Text color End */
+
+/* Background color Start */
+
+.bg-grey{
+    background-color: #8A8787;
+}
+
+.bg-orange{
+    background-color: #F0A83E;
+}
+
+/* Background color End */
+
+/* Header Start */
+
+#header-top{
+    display: none;
+    background-color: #000;
+    color: #fff;
+    padding: 0.75rem 3rem;
+    justify-content: space-between;
+}
+
+#header-top .col-1{
+    text-align: center;
+}
+
+#header-top ul{
+    display: flex;
+}
+
+#header-top ul li{
+    padding: 0 0.5rem;
+}
+
+#header-bottom{
+    background-color: #F0A83E;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+#header-bottom nav{
+    display: none;
+}
+
+#header-bottom a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#header-bottom ul{
+    display: flex;
+}
+
+#header-bottom ul li{
+    padding-left: 1rem;
+}
+
+/* Header End */
+
+/* Main Start */
+
+#principal{
+    background-image: url('../img/bg-principal.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+}
+
+#principal div{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    flex-direction: column;
+}
+
+#principal h1{
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 1.1rem;
+    margin-right: 0;
+}
+
+#principal h2{
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+
+#principal button{
+    background-color: #F0A83E;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    border: none;
+    color: #fff;
+    font-size: 0.8rem;
+    margin: 0 10% 0 40%;
+    width: 50%;
+}
+
+#productos{
+    padding: 1rem;
+    text-align: center;
+}
+
+#productos h2{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+#productos h3{
+    color: #666666;
+    font-size: 0.9rem;
+    margin-bottom: 3rem;
+}
+
+#productos div{
+    padding: 3rem 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10%;
+}
+
+#productos div article{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #FBFAF6;
+}
+
+#productos div article img{
+    width: 100%;
+}
+
+#contacto{
+    text-align: center;
+}
+
+#contacto h3{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+#contacto form{
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#contacto input{
+    background-color: #3C2313;
+    padding: 1rem;
+    border-radius: 15px;
+    border: none;
+    margin: 0.25rem auto;
+    width: 75%;
+}
+
+#contacto input::placeholder{
+    color: #fff;
+}
+
+#contacto .botones{
+    justify-content: center;
+    display: flex;
+}
+
+#contacto button{
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: #fff;
+    margin: 30px 10px;
+    font-size: 1rem;
+    flex-grow: 1;
+    width: 30%;
+}
+
+#subscribite{
+    background-color: #F0A83E;
+    color: #fff;
+    display: flex;
+    padding: 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+#subscribite .left{
+    display: flex;
+    align-items: center;
+}
+
+#subscribite h3{
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+
+#subscribite .left, #subscribite .right{
+    flex-grow: 1;
+    width: 100%;
+}
+
+#subscribite .right{
+    margin-top: 1rem;
+}
+
+#subscribite form{
+    display: flex;
+    justify-content: space-around;
+}
+
+#subscribite input{
+    flex-grow: 1;
+    border: none;
+    border-radius: 15px;
+    padding: 0.2rem;
+    margin-right: 1rem;
+}
+
+#subscribite button{
+    flex-grow: 1;
+    background-color: #3C2313;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Main End */
+
+/* Footer Start */
+
+#footer-top{
+    background-color: #3C2313;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+#footer-top .left, #footer-top .logo{
+    flex-grow: 1;
+}
+
+#footer-top .row{
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+#footer-top .row .icon{
+    background-color: #8A8787;
+    border: 0.3rem solid #786960;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-right: 4rem;
+}
+
+#footer-top .row h3{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+#footer-top .row h5{
+    color: #8A8787;
+    font-size: 0.8rem;
+}
+
+#footer-top .logo{
+    text-align: end;
+}
+
+#footer-bottom{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 0.5rem 0;
+}
+
+/* Footer End */
+
+/* Media */
+
+@media (min-width:768px){
+    
+    #header-top{
+        display: flex;
+    }
+
+    #header-bottom nav{
+        display: block;
+    }
+
+    #principal{
+        padding: 4rem;
+    }
+
+    #principal div{
+        width: 40%;
+    }
+
+    #principal h1{
+        font-size: 2rem;
+    }
+
+    #principal h2{
+        margin: 1.5rem auto;
+        font-size: 1rem;
+    }
+    
+    #principal button{
+        margin: auto;
+        font-size: 1.2rem;
+        width: auto;
+    }
+
+    #productos h2{
+        font-size: 3.5rem;
+        margin-bottom: 0;
+    }
+
+    #productos div{
+        flex-direction: row;
+    }
+    
+    #contacto form{
+        width: 33vw;
+        margin: auto;
+    }
+
+    #contacto input{
+        width: 100%;
+    }
+
+    #contacto button{
+        flex-grow: 0;
+        width: 30%;
+    }
+
+    #subscribite{
+        padding: 1rem 3rem;
+        flex-direction: row;
+    }
+
+    #subscribite .left, #subscribite .right{
+        width: auto;
+    }
+
+    #subscribite input{
+        padding: 10px 10%;
+    }
+
+    #subscribite .right{
+        margin-top: 0;
+    }
+
+    #footer-top{
+        padding: 1rem 10rem;
+        flex-direction: row;
+    }
+  
+}
