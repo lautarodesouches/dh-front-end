@@ -1,0 +1,102 @@
+@import "_variables";
+@import "_normalize";
+
+.header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 6rem;
+    &__h1{
+        font-size: 3rem;
+    }
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    &__item{
+        font-size: 1.5rem;
+    }
+    &__link{
+        color: #000;
+        text-decoration: none;
+    }
+}
+
+.top{
+    align-items: center;
+    display: flex;
+    padding: 0 10rem;
+    &__title{
+        font-size: 8rem;
+        font-weight: 900;
+        padding: 0 35% 2rem 0;
+    }
+    &__text{
+        color: $secondary;
+        font-size: 1.5rem;
+        padding-bottom: 2rem;
+        line-height: 2.5rem;
+    }
+    &__buttons{
+        display: flex;
+        gap: 2rem;
+    }
+    &__button{
+        background: $primary;
+        border: 1px solid #000;
+        font-size: 1.3rem;
+        padding: 1.7rem 2.5rem;
+        border-radius: 3px;
+    }
+}
+
+.points{
+    width: 70%;
+    display: flex;
+    gap: 3rem;
+    margin: 4rem auto;
+}
+
+.card{
+    background: #ececec;
+    border-radius: 3px;
+    padding: 1rem 2rem 4rem 2rem;
+    position: relative;
+    &__number{
+        position: absolute;
+        border: 1px solid #000;
+        border-radius: 50%;
+        font-size: 2rem;
+        font-weight: 500;
+        padding: .75rem 1.5rem;
+        left: 1.5rem;
+        box-shadow: -5px 0 $primary;
+    }
+    &__title{
+        font-size: 2rem;
+        margin: 5rem 0 1rem 0;
+    }
+    &__text{
+
+    }
+}
+
+.footer{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem;
+    &__icons{
+        display: flex;
+        gap: 1rem;
+    }
+    &__icon{
+        border: 1px solid #000;
+        border-radius: 50px;
+        padding: 10%;
+        width: 30px;
+        height: 30px;
+    }
+}

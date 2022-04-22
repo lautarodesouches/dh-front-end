@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 6rem;
+}
+.header__h1 {
+  font-size: 3rem;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+.menu__item {
+  font-size: 1.5rem;
+}
+.menu__link {
+  color: #000;
+  text-decoration: none;
+}
+
+.top {
+  align-items: center;
+  display: flex;
+  padding: 0 10rem;
+}
+.top__title {
+  font-size: 8rem;
+  font-weight: 900;
+  padding: 0 35% 2rem 0;
+}
+.top__text {
+  color: #9b9b9b;
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+  line-height: 2.5rem;
+}
+.top__buttons {
+  display: flex;
+  gap: 2rem;
+}
+.top__button {
+  background: #03faee;
+  border: 1px solid #000;
+  font-size: 1.3rem;
+  padding: 1.7rem 2.5rem;
+  border-radius: 3px;
+}
+
+.points {
+  width: 70%;
+  display: flex;
+  gap: 3rem;
+  margin: 4rem auto;
+}
+
+.card {
+  background: #ececec;
+  border-radius: 3px;
+  padding: 1rem 2rem 4rem 2rem;
+  position: relative;
+}
+.card__number {
+  position: absolute;
+  border: 1px solid #000;
+  border-radius: 50%;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 0.75rem 1.5rem;
+  left: 1.5rem;
+  box-shadow: -5px 0 #03faee;
+}
+.card__title {
+  font-size: 2rem;
+  margin: 5rem 0 1rem 0;
+}
+.footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5rem;
+}
+.footer__icons {
+  display: flex;
+  gap: 1rem;
+}
+.footer__icon {
+  border: 1px solid #000;
+  border-radius: 50px;
+  padding: 10%;
+  width: 30px;
+  height: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
